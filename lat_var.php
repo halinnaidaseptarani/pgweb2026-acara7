@@ -1,13 +1,11 @@
 <?php
-$x = 100;  
-$y = 50;
+    $pesan = "Selamat belajar";
+    //echo "Selamat Datang ".$pesan;
 
-if ($x == 100 && $y == 80) {
-    echo "Masuk sini <br>";
-}elseif ($x == 100) {
-    echo "Masuk blok 2 <br>";
-}else{
-    echo "Masuk keranjang <br>";
-}
-echo "Program selesai";
-?>  
+    $cars = array("Volvo", "BMW", "Toyota");
+    echo $cars[2];
+    
+    
+    
+
+?>
