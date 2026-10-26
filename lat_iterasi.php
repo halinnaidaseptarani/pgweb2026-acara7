@@ -1,23 +1,28 @@
 <?php
-   /* $i = 1; 
-    while ($i < 20) { 
-        echo $i. "<br>";
-        $i = $i + 1; 
-    }
+
+/*
+$i = 1;
+while ($i < 100) {
+    echo $i . "<br>";
+    $i = $i + 1; // $i++;
+}
 */
 
-    /*for ($i = 1; $i <10; $i++) {
-        echo $i. "<br>";
-    }
+/*
+for ($i = 1; $i < 100; $i++) {
+    echo $i . "<br>";
+}
 */
 
-    $colors = array("red", "green", "blue", "yellow");
-        foreach ($colors as $value) {
-                 echo "$value <br>";
-        }
+$colors = array("red", "green", "blue", "yellow");
 
-    for ($i = 0; $i <= 3; $i++) {
-        echo $colors [$i];
-    }
+foreach ($colors as $value) {
+    echo $value . "<br>";
+}
+
+for ($i = 0; $i <= 3; $i++) {
+    echo $colors[$i] . "<br>";
+}
 
 ?>
+
